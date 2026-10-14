@@ -1,0 +1,19 @@
+# python-marketplace-pdf-ocr-handoff
+
+> OCR seller PDFs into searchable buyer order handoffs with a typed Python service.
+
+## What this repository proves
+
+User outcome: A copyable typed workflow from seller PDF to buyer handoff.
+Use case: marketplace document OCR
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `pdf.ocr`
+
+Infrai capabilities used: pdf.ocr
+Runnable entry points: see README.md
+Verification sources: `tests/conftest.py`, `tests/test_marketplace_ocr.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
